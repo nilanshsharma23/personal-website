@@ -1,1 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
 @import 'tailwindcss';
+
+@theme {
+    --color-neo-blue: #7DF9FF;
+    --color-neo-green: #2FFF2F;
+    --color-neo-pink: #FF00F5;
+    --color-neo-dark-blue: #3300FF;
+    --color-neo-yellow: #FFFF00;
+    --color-neo-red: #FF4911;
+    --color-border: rgba(255, 255, 255, 0.5);
+}
+
+* {
+    font-family: 'JetBrains Mono', monospace;
+}
+
+body {
+    background: url('$lib/assets/background.png');
+}
