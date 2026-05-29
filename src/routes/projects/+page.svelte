@@ -13,11 +13,9 @@
   class="xl:mx-128 lg:mx-64 md:mx-32 sm:mx-16 mx-8 my-8 flex flex-col gap-4 text-white text-xl"
 >
   <Navbar />
-  <div class="flex flex-col gap-2">
-    <div class="text-2xl font-bold text-orange-200">Projects</div>
-    {#each projectData as project}
-      <ProjectCard {project} />
-    {/each}
-  </div>
+  <div class="text-2xl font-bold text-orange-200">Projects</div>
+  {#each projectData as project}
+    <ProjectCard {project} />
+  {/each}
   <Footer />
 </div>
