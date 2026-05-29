@@ -23,6 +23,10 @@
     );
 </script>
 
+<svelte:head>
+    <title>About | Nilansh Sharma</title>
+</svelte:head>
+
 <div
     class="xl:mx-128 lg:mx-64 md:mx-32 sm:mx-16 mx-8 my-8 flex flex-col items-stretch gap-4 text-white text-xl"
 >
@@ -43,7 +47,7 @@
         jellyfish dodging trash under the sea. Might have been subconciously
         inspired by #TeamSeas.
     </div>
-    <img src={UnderwaterRush} alt="" class="max-w-200" />
+    <img src={UnderwaterRush} alt="" class="w-full" />
     <div>
         I've made multiple big projects in my time, including a social network,
         which had like 50 active users in its peak back in March 2025.
@@ -53,6 +57,26 @@
             >Hack Club</a
         >. It's a pretty cool place. Check it out if you're a teenager. I'm not
         asking.
+    </div>
+    <div>
+        I do more things, yknow, not just programming. Please, I'm an
+        interesting person, right? Here are more of my interests.
+    </div>
+    <ul class="list-disc pl-8">
+        <li>Basketball</li>
+        <li>Guitar</li>
+        <li>Indie Games</li>
+        <li>Indie Rock</li>
+        <li>History</li>
+        <li>Linguistics</li>
+        <li>Quizzing</li>
+        <li>Music in general</li>
+    </ul>
+    <div>
+        Yea, pretty nerdy interests, but I promise you, I'm fun in real life. I
+        don't really talk about my interests, unless I am absolutely certain you
+        share them, or can tolerate me yapping about them. That's pretty much
+        it.
     </div>
     <Footer />
 </div>

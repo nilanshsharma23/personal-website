@@ -5,6 +5,10 @@
     import RouteLink from "$lib/components/RouteLink.svelte";
 </script>
 
+<svelte:head>
+    <title>Nilansh Sharma</title>
+</svelte:head>
+
 <div
     class="xl:mx-128 lg:mx-64 md:mx-32 sm:mx-16 mx-8 my-8 flex flex-col gap-4 text-white text-xl"
 >

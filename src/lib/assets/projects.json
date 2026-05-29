@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Reedel",
+        "description": "A student-centric social media website with posts, messaging, study rooms and tiktok like scrolling but for questions instead of videos. ",
+        "release": "26 March 2025",
+        "languages": ["Flutter","Dart", "Supabase"],
+        "link": "https://reedel.netlify.app",
+        "source": "https://github.com/nilanshsharma23/reedel"
+    },
+    {
+        "name": "Blur",
+        "description": " An app for anonymous/non-anonymous confessions, vents, rants, gossips and more in school or public circles!",
+        "release": "25 March 2026",
+        "languages": ["Flutter","Dart", "VueJS", "Javascript", "Firebase"],
+        "link": "https://blurposting.xyz",
+        "source": "https://github.com/nilanshsharma23/blur"
+    },
+    {
+        "name": "BookBukkit",
+        "description": "An e-commerce app for purchase and selling of second-hand books for cheap.",
+        "release": "TBD",
+        "languages": ["Flutter","Dart", "VueJS", "Javascript", "Supabase"],
+        "link": null,
+        "source": "https://github.com/nilanshsharma23/bookbukkit"
+    }
+]
