@@ -7,7 +7,7 @@
 
 <a
     href={link}
-    class={"text-lg " +
+    class={"md:text-md sm:text-sm text-xs lg:text-lg " +
         (currentRoute
             ? "bg-orange-300 text-black"
             : "text-blue-200 hover:bg-orange-300 hover:text-black")}

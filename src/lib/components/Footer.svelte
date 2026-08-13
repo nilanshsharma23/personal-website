@@ -3,7 +3,7 @@
 </script>
 
 <div
-    class="flex flex-row gap-0 items-center justify-between border text-lg text-blue-200 py-2 px-4 border-border"
+    class="flex flex-row flex-wrap gap-0 items-center justify-between border text-lg text-blue-200 py-2 px-4 border-border"
 >
     <div class="flex flex-col">
         <SocialLink

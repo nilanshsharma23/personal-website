@@ -4,7 +4,7 @@
 
 <div class="flex flex-col gap-0 border border-border">
   <div
-    class="flex flex-row items-center text-center justify-between py-2 px-4 border-b border-b-border text-blue-200 text-lg"
+    class="flex flex-row items-center text-center justify-between py-2 px-4 border-b border-b-border text-blue-200 lg:text-lg md:text-md sm:text-sm text-xs "
   >
     <div class="hidden sm:block">pyscrap</div>
     <div>Nilansh Sharma</div>

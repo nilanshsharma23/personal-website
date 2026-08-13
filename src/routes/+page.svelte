@@ -19,16 +19,16 @@
         class="hover:scale-103 duration-300"
     />
     <br />
-    <div class="text-2xl font-bold text-orange-200">hey, i'm nilansh</div>
-    <div>
+    <div class="xl:text-2xl lg:text-xl md:text-lg sm:text-md text-sm font-bold text-orange-200">hey, i'm nilansh</div>
+    <div class="lg:text-lg sm:text-md text-sm">
         known by many names online, nilansh, nilu, and most of all, pyscrap!
     </div>
-    <div>
+    <div class="lg:text-lg sm:text-md text-sm">
         the image above is just some of my projects and characters from my games
         or as I like to call them, the pycinematic universe. don't mind them,
         they like being here
     </div>
-    <div>
+    <div class="lg:text-lg sm:text-md text-sm">
         for more context about this, go to the <RouteLink
             content="[projects]"
             link="/projects"
