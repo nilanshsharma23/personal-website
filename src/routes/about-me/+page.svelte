@@ -2,6 +2,7 @@
   import Footer from "$lib/components/Footer.svelte";
   import Navbar from "$lib/components/Navbar.svelte";
   import UnderwaterRush from "$lib/assets/underwater_rush.png";
+  import PageTemplate from "$lib/components/PageTemplate.svelte";
 
   const currentDate = new Date();
   const birthDate = new Date("2009/09/23");
@@ -27,9 +28,7 @@
   <title>About | Nilansh Sharma</title>
 </svelte:head>
 
-<div
-  class="xl:mx-128 lg:mx-64 md:mx-32 sm:mx-16 mx-8 my-8 flex flex-col items-stretch gap-4 text-white text-xl"
->
+<PageTemplate>
   <Navbar />
   <div class="xl:text-2xl lg:text-xl md:text-lg sm:text-md text-sm font-bold text-orange-200">About Me</div>
   <div class="lg:text-lg sm:text-md text-sm">
@@ -81,4 +80,4 @@
     share them, or can tolerate me yapping about them. That's pretty much it.
   </div>
   <Footer />
-</div>
+</PageTemplate>

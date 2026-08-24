@@ -3,19 +3,18 @@
   import Navbar from "$lib/components/Navbar.svelte";
   import projectData from "$lib/assets/projects.json";
   import ProjectCard from "$lib/components/ProjectCard.svelte";
+  import PageTemplate from "$lib/components/PageTemplate.svelte";
 </script>
 
 <svelte:head>
   <title>Projects | Nilansh Sharma</title>
 </svelte:head>
 
-<div
-  class="xl:mx-128 lg:mx-64 md:mx-32 sm:mx-16 mx-8 my-8 flex flex-col gap-4 text-white text-xl"
->
+<PageTemplate>
   <Navbar />
   <div class="xl:text-2xl lg:text-xl md:text-lg sm:text-md text-sm  font-bold text-orange-200">Projects</div>
   {#each projectData as project}
     <ProjectCard {project} />
   {/each}
   <Footer />
-</div>
+</PageTemplate>

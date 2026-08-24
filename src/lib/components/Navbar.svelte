@@ -16,5 +16,6 @@
     <RouteLink content="[Home]" link="/" />
     <RouteLink content="[About Me]" link="/about-me" />
     <RouteLink content="[Projects]" link="/projects" />
+    <RouteLink content="[Blurbs]" link="/blurbs" />
   </div>
 </div>

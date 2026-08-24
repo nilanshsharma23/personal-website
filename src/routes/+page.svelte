@@ -2,6 +2,7 @@
     import cinematicuniverse from "$lib/assets/cinematicuniverse.gif";
     import Footer from "$lib/components/Footer.svelte";
     import Navbar from "$lib/components/Navbar.svelte";
+  import PageTemplate from "$lib/components/PageTemplate.svelte";
     import RouteLink from "$lib/components/RouteLink.svelte";
 </script>
 
@@ -9,9 +10,7 @@
     <title>Nilansh Sharma</title>
 </svelte:head>
 
-<div
-    class="xl:mx-128 lg:mx-64 md:mx-32 sm:mx-16 mx-8 my-8 flex flex-col gap-4 text-white text-xl"
->
+<PageTemplate>
     <Navbar />
     <img
         src={cinematicuniverse}
@@ -36,4 +35,4 @@
     </div>
     <br />
     <Footer />
-</div>
+</PageTemplate>
